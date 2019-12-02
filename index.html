@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li class="navright"><button class="navbutton"><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fgws_rd%3Dssl&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><font color="white">Sign In</font></a></button></li>
+            <li class="navright"><img src="https://cdn4.iconfinder.com/data/icons/finite-application/16/grid-9-512.png" class="navcube"></li>
+            <li class="navright"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+            <li class="navright"><a href="https://www.google.com/intl/en/gmail/about/#">Gmail</a></li>
+        </ul>
+    </nav>
+
+    <!--LOGO-->
+    <a href="http://www.google.ro"><img class="logo" src="./images/logo.jpg" alt="Google logo"></a>
+
+    <!--Search bar-->
+    <div class="navigation">
+        <form action="searchbox">
+            <img src="https://image.flaticon.com/icons/svg/49/49116.svg" id="searchbaricon">
+            <input type="text" name="searchbar">
+            <img src="https://www.google.ro/tia/tia.png" id="keyboard">
+            <img src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" id="microphoneicon">
+            
+        </form><br>
+        <button id="searchbutton">Google Search</button>
+        <button id="searchbutton">I'm Feeling Lucky</button>
+        <div>
+            <p>Google offered in:</p>
+            <a id= "googleversions" href="https://www.google.ro/setprefs?sig=0_Qz2KWj2i1fF8V6raa6FAln5rIuQ%3D&amp;hl=hu&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiqs-fcsZfmAhWh-yoKHcFeD0UQ2ZgBCA4">magyar</a>
+            <a id= "googleversions" href="https://www.google.ro/setprefs?sig=0_Qz2KWj2i1fF8V6raa6FAln5rIuQ%3D&amp;hl=de&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiqs-fcsZfmAhWh-yoKHcFeD0UQ2ZgBCA8">Deutsch</a>
+            <a id= "googleversions" href="https://www.google.ro/setprefs?sig=0_Qz2KWj2i1fF8V6raa6FAln5rIuQ%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiqs-fcsZfmAhWh-yoKHcFeD0UQ2ZgBCBA">English</a>
+        </div>
+    </div>
 </body>
+<footer>
+    <p class="footertextleft">Advertising</p>
+    <p class="footertextleft">Business</p>
+    <p class="footertextleft">About</p>
+    <p class="footertextleft">How Search Works</p>
+    <p class="footertextright">Privacy</p>
+    <p class="footertextright">Terms</p>
+    <p class="footertextright">Settings</p>
+</footer>
 </html>
